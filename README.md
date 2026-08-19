@@ -8,10 +8,19 @@
 
 <br>
 
+### 🔥 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-826AFB?style=for-the-badge&logo=vercel&logoColor=white)](https://php-registration-form.vercel.app)
+
+**👉 [https://php-registration-form.vercel.app](https://php-registration-form.vercel.app)**
+
+<br>
+
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 <br>
@@ -37,6 +46,8 @@ A clean, modern and fully responsive **Registration Form** built with pure **PHP
 
 This project features both **client-side** (HTML5) and **server-side** (PHP) validation to provide a smooth and secure user experience.
 
+**Live Demo is available on Vercel** → [Click here to try it](https://php-registration-form.vercel.app)
+
 Perfect for beginners who want to learn form handling, validation and modern UI design.
 
 ---
@@ -58,6 +69,7 @@ Perfect for beginners who want to learn form handling, validation and modern UI 
 | ⚠️ | Clean & stylish error messages |
 | 💾 | Sticky form values (data is kept after failed submit) |
 | 💜 | Purple gradient background + elegant white card |
+| 🚀 | Live demo deployed on Vercel |
 
 </div>
 
@@ -71,6 +83,7 @@ Perfect for beginners who want to learn form handling, validation and modern UI 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
@@ -80,10 +93,11 @@ Perfect for beginners who want to learn form handling, validation and modern UI 
 
 <div align="center">
 
-### 💜 Desktop View
-> Clean white card on a beautiful purple background
+### 💜 Live Demo
 
-### 📱 Mobile View
+[![Open Live Demo](https://img.shields.io/badge/Open_Live_Demo-826AFB?style=for-the-badge&logo=vercel&logoColor=white)](https://php-registration-form.vercel.app)
+
+> Clean white card on a beautiful purple background  
 > Fully responsive – columns stack perfectly on small screens
 
 </div>
@@ -127,9 +141,12 @@ Then open → [http://localhost:8000](http://localhost:8000)
 ```bash
 php-registration-form/
 │
-├── 📄 index.php          # Main form + PHP validation logic
-├── 🎨 style.css          # All styling + responsive rules
-└── 📘 README.md          # This beautiful documentation
+├── 📄 index.php              # Main form (for local use)
+├── 📁 api/
+│   └── 📄 index.php          # PHP entry point for Vercel
+├── 🎨 style.css              # All styling + responsive rules
+├── ⚙️ vercel.json            # Vercel configuration
+└── 📘 README.md              # This beautiful documentation
 ```
 
 ---
