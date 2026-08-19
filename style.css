@@ -1,0 +1,145 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(250, 95%, 70%);
+    padding: 20px;
+}
+
+.contaner {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-box label {
+    color: #333;
+}
+
+.contaner header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 8px;
+    color: #707070;
+    padding: 0 15px;
+}
+
+.input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .column {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form .gender-option {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.gender-option .gender {
+    column-gap: 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form :where(.gender input, .gender label) {
+    cursor: pointer;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.form .gender-box {
+    margin-top: 20px;
+}
+
+.gender-box > h3 {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.select-box select {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 100%;
+    color: #707070;
+    font-size: 1rem;
+}
+
+.adress :where(input, .select-box) {
+    margin-top: 20px;
+}
+
+.form button {
+    height: 55px;
+    width: 100%;
+    color: white;
+    background-color: #826afb;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.form button:hover {
+    background-color: #5b3bfd;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+    .form .column {
+        flex-wrap: wrap;
+    }
+
+    .form .gender-option {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
+
+.error {
+    font-size: 12px;
+    font-weight: 300;
+    color: red;
+}
