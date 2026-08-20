@@ -29,7 +29,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/salehsarlak/php-registration-form?style=social)](https://github.com/salehsarlak/php-registration-form/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/salehsarlak/php-registration-form)](https://github.com/salehsarlak/php-registration-form/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/salehsarlak/php-registration-form)](https://github.com/salehsarlak/php-registration-form/commits/main)
-
+ 
 </div>
 
 ---
